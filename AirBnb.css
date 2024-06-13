@@ -1,0 +1,30 @@
+.container{
+    box-sizing: border-box;
+    color:rgb(34, 34, 34) ;
+    display: block;
+    font-size: 14px;
+    height: 70px;
+    width: auto;
+    background-color: aqua;
+    line-break: strict;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    padding-top: 14px ;
+}
+.incontainer{
+    box-sizing: border-box;
+    display: block;
+    line-height: 20.02px;
+    position: relative;
+    text-size-adjust: 100%;
+    background-color:blueviolet;
+    height: 56px;
+    background-origin: padding-box;
+    background-size: auto;
+    background-repeat: repeat;
+    z-index: 1;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    width: auto;
+
+}
