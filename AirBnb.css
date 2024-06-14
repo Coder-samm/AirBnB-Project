@@ -5,7 +5,6 @@
     font-size: 14px;
     height: 70px;
     width: auto;
-    background-color: aqua;
     line-break: strict;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
@@ -17,7 +16,6 @@
     line-height: 20.02px;
     position: relative;
     text-size-adjust: 100%;
-    background-color:blueviolet;
     height: 56px;
     background-origin: padding-box;
     background-size: auto;
@@ -26,5 +24,72 @@
     background-position-x: 0%;
     background-position-y: 0%;
     width: auto;
-
 }
+
+.contentcontainer{
+        box-sizing: border-box;
+        display: block;
+        height: 56px;
+        margin-top:auto;
+        margin-inline-start: 16px;
+        margin-inline-end: 16px;
+        position: relative;
+        background-origin: padding-box;
+     }
+     .buttoncontainer{
+        align-items: stretch;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: rgb(255, 255, 255);
+        background-image: none;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto;
+        border-bottom-color: rgba(0, 0, 0, 0.08);
+        border-bottom-left-radius: 1000px;
+        border-bottom-right-radius: 1000px;
+        border-bottom-style: solid;
+        border-bottom-width: 0.666667px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgba(0, 0, 0, 0.08);
+        border-left-style: solid;
+        border-left-width: 0.666667px;
+        border-right-color: rgba(0, 0, 0, 0.08);
+        border-right-style: solid;
+        border-right-width: 0.666667px;
+        border-top-color: rgba(0, 0, 0, 0.08);
+        border-top-left-radius: 1000px;
+        border-top-right-radius: 1000px;
+        border-top-style: solid;
+        border-top-width: 0.666667px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px 0px;
+        box-sizing: border-box;
+        color: rgba(34, 34, 34);
+        contain: layout style;
+        display: grid;
+        flex-basis: 0%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        font-family: Cereal, Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+        font-size: 14px;
+        height: auto;
+        line-break: strict;
+        line-height: 20.02px;
+        margin-inline-end: 50px;
+        min-height: 56px;
+        text-size-adjust: 100%;
+        transition-duration: 0.2s;
+        transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+        unicode-bidi: isolate;
+        width: auto;
+        will-change: margin-inline-end;
+        -webkit-font-smoothing: antialiased;
+
+
+     }
