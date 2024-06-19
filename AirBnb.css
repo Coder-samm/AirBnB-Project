@@ -90,6 +90,54 @@
         width: auto;
         will-change: margin-inline-end;
         -webkit-font-smoothing: antialiased;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+    }
 
-
-     }
+    .iconcontainer{
+        height: 20px;
+        width: 52px;
+        display: grid;
+        align-items: center;
+        text-align: start;
+        justify-items: center;
+        align-items: center;
+        color: aqua;
+        
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    .content{
+        box-sizing: border-box;
+        height: 36px;
+        width: 100%;
+        padding: left 2px;
+        display: block;
+        line-height: 20px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
+    .whereto{
+        width: 100%;
+        height:200px
+    }
+    .trio span{
+        position: relative;
+        display: inline-block;
+    }
+    .trio span::after {
+        content: '•';
+        font-size: 12px;
+        position: relative;
+        left: 3px; 
+        margin-left:3px; 
+        margin-right: 3px;
+    }
+    
+    .trio span:last-child::after {
+        content: '';
+    }
