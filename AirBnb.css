@@ -172,12 +172,16 @@
         scroll-padding-inline-start: 24px;
         touch-action: auto;
         unicode-bidi: isolate;
-        background-color: blue;
-        
+        white-space: nowrap;
     }
     .label1{
+        color: black;
+        background-color: black;
+        border-bottom-color: black;
         position: static;
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         box-sizing: border-box;
         padding-top: 4px;
         padding-bottom: 4px;
@@ -219,7 +223,7 @@
         }
          .iconstext{
             text-size-adjust: 100%;
-            display: inline-block;
+            display: center;
             font-weight: 600;
          }
     
