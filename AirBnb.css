@@ -1,3 +1,7 @@
+.body{
+    height: fit-content;
+    width: fit-content;
+}
 .container{
     box-sizing: border-box;
     color:rgb(34, 34, 34) ;
@@ -141,3 +145,81 @@
     .trio span:last-child::after {
         content: '';
     }
+    .logos{
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: flex-start;
+        height: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: auto;
+        font-size: 14px;
+        line-height: 20.02px;
+        text-size-adjust: 100%;
+        color: rgb(34, 34, 34);
+        grid-auto-columns: max-content;
+        grid-auto-flow: column;
+        grid-template-rows: 74px;
+        -webkit-font-smoothing: antialiased;
+        column-gap: 16px;
+        contain: paint;
+        line-break: strict;
+        overscroll-behavior-inline: contain;
+        padding-inline-end: 24px;
+        padding-inline-start: 24px;
+        row-gap: 16px;
+        scroll-padding-inline-end: 24px;
+        scroll-padding-inline-start: 24px;
+        touch-action: auto;
+        unicode-bidi: isolate;
+        background-color: blue;
+        
+    }
+    .label1{
+        position: static;
+        display: grid;
+        box-sizing: border-box;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 12px;
+        background-color: white;
+        margin-bottom: 10px;
+        display: flex;
+        border-top-left-radius: 8px;
+        height: auto;
+        min-width: 64px;
+        width: max-content;
+        text-align: center;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        line-height: 16px;
+        white-space: normal;
+        
+    
+    }
+    .textandiconalign{
+
+    }
+        
+        
+
+        .iconcontainer1{
+            align-items: center;
+            flex-direction: column;
+            min-width: 40px;
+            width:auto;
+            height:auto;
+            font-size: 12px;
+        }
+        
+        .img1{
+            justify-self: center;
+
+        }
+         .iconstext{
+            text-size-adjust: 100%;
+            display: inline-block;
+            font-weight: 600;
+         }
+    
