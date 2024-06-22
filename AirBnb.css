@@ -235,8 +235,8 @@
             padding-left: 24px;
             padding-right: 24px;
             max-width: 100%;
-            
-
-
-         }
+        }
+        .imgtext{
+            white-space: nowrap;
+        }
     
