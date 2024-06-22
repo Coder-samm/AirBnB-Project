@@ -9,10 +9,9 @@
     font-size: 14px;
     height: 70px;
     width: auto;
-    line-break: strict;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    padding-top: 14px ;
+    padding-top: 14px;
 }
 .incontainer{
     box-sizing: border-box;
@@ -173,6 +172,7 @@
         touch-action: auto;
         unicode-bidi: isolate;
         white-space: nowrap;
+        overflow-x: auto;
     }
     .label1{
         color: black;
@@ -201,13 +201,7 @@
         white-space: normal;
         
     
-    }
-    .textandiconalign{
-
-    }
-        
-        
-
+    }   
         .iconcontainer1{
             align-items: center;
             flex-direction: column;
@@ -225,5 +219,24 @@
             text-size-adjust: 100%;
             display: center;
             font-weight: 600;
+         }
+         .picture{
+            border-radius: 20px;
+            position:relative ;
+            height: 100%;
+            width: 100%;
+            display:inline-flex;
+         }
+         .piccontain{
+            display: grid;
+            row-gap: 30px;
+            margin-bottom: 32px;
+            margin-top: 24px;
+            padding-left: 24px;
+            padding-right: 24px;
+            max-width: 100%;
+            
+
+
          }
     
