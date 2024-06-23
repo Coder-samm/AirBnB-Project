@@ -11,6 +11,14 @@
     display: block;
     width: 100%;
     font-weight: 400;
+    overflow-x: hidden;
+}
+.fixedtop{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+
 }
 .container{
     box-sizing: border-box;
@@ -154,7 +162,7 @@
         display: inline-flex;
         justify-content: flex-start;
         height: auto;
-        overflow-x: auto;
+        overflow-x:auto;
         overflow-y: hidden;
         width: auto;
         font-size: 14px;
@@ -179,6 +187,14 @@
         white-space: nowrap;
         flex-shrink: 1;
     }
+
+    .scrollable{
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+     }
+    .scrollable::-webkit-scrollbar{
+        width:100px;
+     }
     .label1{
         color: black;
         background-color: black;
